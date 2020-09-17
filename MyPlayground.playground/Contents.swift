@@ -1,3 +1,5 @@
-for index in 1...5 {
-    print("index \(index) умноженый на 5 = \(index * 5) ")
+let arrey = ["Alan", "Xena", "Ben"]
+let count = arrey.count
+for i in 0..<count {
+    print(arrey[i])
 }
